@@ -33,6 +33,27 @@
 			remoteGlobalIDString = B836202426C835D5009D4906;
 			remoteInfo = BNUseSubmoduleDemo;
 		};
+		B8912EC926C837860041C877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8912EC126C837860041C877 /* BNSubmoduleDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B831580226C824BC008883F1;
+			remoteInfo = BNSubmoduleDemo;
+		};
+		B8912ECB26C837860041C877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8912EC126C837860041C877 /* BNSubmoduleDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B831581D26C824BD008883F1;
+			remoteInfo = BNSubmoduleDemoTests;
+		};
+		B8912ECD26C837860041C877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8912EC126C837860041C877 /* BNSubmoduleDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B831582826C824BD008883F1;
+			remoteInfo = BNSubmoduleDemoUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +75,7 @@
 		B836204B26C835D6009D4906 /* BNUseSubmoduleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNUseSubmoduleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B836204F26C835D6009D4906 /* BNUseSubmoduleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNUseSubmoduleDemoUITests.m; sourceTree = "<group>"; };
 		B836205126C835D6009D4906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8912EC126C837860041C877 /* BNSubmoduleDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BNSubmoduleDemo.xcodeproj; path = BNSubmoduleDemo/BNSubmoduleDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +106,7 @@
 		B836201C26C835D5009D4906 = {
 			isa = PBXGroup;
 			children = (
+				B8912EC126C837860041C877 /* BNSubmoduleDemo.xcodeproj */,
 				B836202726C835D5009D4906 /* BNUseSubmoduleDemo */,
 				B836204326C835D6009D4906 /* BNUseSubmoduleDemoTests */,
 				B836204E26C835D6009D4906 /* BNUseSubmoduleDemoUITests */,
@@ -135,6 +158,16 @@
 				B836205126C835D6009D4906 /* Info.plist */,
 			);
 			path = BNUseSubmoduleDemoUITests;
+			sourceTree = "<group>";
+		};
+		B8912EC226C837860041C877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8912ECA26C837860041C877 /* BNSubmoduleDemo.app */,
+				B8912ECC26C837860041C877 /* BNSubmoduleDemoTests.xctest */,
+				B8912ECE26C837860041C877 /* BNSubmoduleDemoUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +258,12 @@
 			mainGroup = B836201C26C835D5009D4906;
 			productRefGroup = B836202626C835D5009D4906 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B8912EC226C837860041C877 /* Products */;
+					ProjectRef = B8912EC126C837860041C877 /* BNSubmoduleDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B836202426C835D5009D4906 /* BNUseSubmoduleDemo */,
@@ -233,6 +272,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B8912ECA26C837860041C877 /* BNSubmoduleDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BNSubmoduleDemo.app;
+			remoteRef = B8912EC926C837860041C877 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B8912ECC26C837860041C877 /* BNSubmoduleDemoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BNSubmoduleDemoTests.xctest;
+			remoteRef = B8912ECB26C837860041C877 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B8912ECE26C837860041C877 /* BNSubmoduleDemoUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BNSubmoduleDemoUITests.xctest;
+			remoteRef = B8912ECD26C837860041C877 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B836202326C835D5009D4906 /* Resources */ = {

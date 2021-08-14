@@ -1,0 +1,3 @@
+[submodule "BNSubmoduleDemo"]
+	path = BNSubmoduleDemo
+	url = https://github.com/BNineCoding/BNSubmoduleDemo.git
